@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>30-Day ECE Interview Prep Plan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>30-Day ECE Interview Prep Tracker</h1>
+    <p>
+      Final-year B.Tech ECE, 2 hours/day, focused on aptitude, DSA basics, core electronics/embedded, a mini-project, and interview readiness.
+    </p>
+  </header>
+
+  <main>
+    <section aria-labelledby="progress-summary-heading">
+      <h2 id="progress-summary-heading">Progress Summary</h2>
+      <div id="progress-summary">
+        <p><strong>Days completed:</strong> <span id="days-completed">0</span> / 30</p>
+        <p><strong>Overall progress:</strong> <span id="percent-complete">0%</span></p>
+        <p><strong>Weekly milestones:</strong> <span id="weekly-status">Week 1–4 milestones shown here.</span></p>
+      </div>
+      <div id="export-import">
+        <button id="export-json-btn">Export JSON</button>
+        <button id="import-json-btn">Import JSON</button>
+        <button id="export-csv-btn">Export CSV</button>
+        <input type="file" id="import-file" accept=".json,.csv" aria-label="Import progress file" />
+      </div>
+    </section>
+
+    <section aria-labelledby="days-list-heading">
+      <h2 id="days-list-heading">Day-by-Day Checklist</h2>
+      <p>
+        Click a day to expand details: tasks, resources, time allocation, and notes. Use the completion and partial progress
+        controls to track your work.
+      </p>
+      <div id="days-container" role="list"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      This is a static site. To host it, simply open <code>index.html</code> in any browser or put these files on GitHub Pages
+      / Netlify.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
